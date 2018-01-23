@@ -1,4 +1,10 @@
-# PasswordListWalletCracker
+# SmartWalletCracker.py
+
+A rewrite of the passwordlistwalletcracker. This version provides better feedback on run execution with intelligent support for double encrypted wallets.  Attempts to decipher both primary and secondary cycle passwords from a list of passwords.
+
+Usage:  python smartWalletCracker.py [walletfile] [passwordlistfile] 
+
+# PasswordListWalletCracker - DEPRECATED
 Attempts to decipher a given wallet.aes.json using a password list
 
 Note, when you need to get the pycrypto library to run. (easy_install pycrypto). 
